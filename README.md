@@ -19,3 +19,11 @@
 1.5 ： 增加帧缓冲对象（也许）
 
 1.6 ： 增加模型文件、材质文件导入（也许）
+
+还有对版本命名的修改：
+
+1.改为Major.Minor或Major.Minor.Revision的格式
+
+2.Major.Minor默认代指Major.Minor.x，Major默认代指Major.x
+
+3.Alpha、Beta、Release改为后缀
