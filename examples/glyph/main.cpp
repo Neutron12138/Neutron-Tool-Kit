@@ -68,7 +68,7 @@ public:
         program.delete_object();
         program.delete_shaders();
         sprite.release();
-        font.release_all();
+        font.release();
         fout.close();
     }
 

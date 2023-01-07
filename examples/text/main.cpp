@@ -57,7 +57,7 @@ public:
         program.delete_shaders();
         text.release();
         font.close_font();
-        font.release_all();
+        font.release();
         fout.close();
     }
 

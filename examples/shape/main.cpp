@@ -46,9 +46,10 @@ public:
 
 int main()
 {
-    std::cout << "Hello NTK " << NEUTRON_VERSION_FULL << "!" << std::endl;
-    std::cout << "major:" << NEUTRON_VERSION_MAJOR << "\tminor:" << NEUTRON_VERSION_MINOR << std::endl;
-    
+    std::cout << "Hello NTK " << NEUTRON_INFO_VERSION_FULL << "!" << std::endl;
+    std::cout << "major:" << NEUTRON_INFO_VERSION_MAJOR << "\tminor:" << NEUTRON_INFO_VERSION_MINOR << std::endl;
+    std::cout << NEUTRON_INFO_UPDATE_DESCRIPTION << std::endl;
+
     MyApp app;
     return app.run();
 }
