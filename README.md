@@ -11,3 +11,5 @@
 所有的ModelInstance共享同一个VAO，此VAO由ModelObject管理
 
 使用ModelObject::create_instance()可以制造拥有相同顶点的对象，但可以为其设置不同变换
+
+之后版本将弃用Model和PrimitiveSprite，用VertexModel与ModelInstance替代，且会在之后移除
