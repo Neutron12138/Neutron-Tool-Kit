@@ -1,0 +1,14 @@
+--------------------
+Time:Mon Jan 23 13:15:00 2023
+Level:Info
+Title:load OpenGL
+Content:OpenGL loaded succeefully
+
+--------------------
+Time:Mon Jan 23 13:15:02 2023
+Level:Info
+Title:Application
+Content:Application Finished
+exit code:0
+1.271 seconds exist
+
