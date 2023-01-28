@@ -1,0 +1,6 @@
+export module my_module;
+
+export char* constexpr helloworld()
+{
+    return "hello world!";
+}
